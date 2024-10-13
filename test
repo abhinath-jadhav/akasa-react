@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Corn Pizza",
+    "price": 250,
+    "diet": 1,
+    "category": 1,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_600/f37cc995c130a39daae423f075bd23d4",
+    "ratings": 4,
+    "featured": false
+  },
+  {
+    "name": "Chicken Pizza",
+    "price": 300,
+    "diet": 2,
+    "category": 1,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/fe37811c8d1a9b0c5923ff1a60926b7d",
+    "ratings": 4,
+    "featured": true
+  },
+  {
+    "name": "Paneer Pizza",
+    "price": 300,
+    "diet": 1,
+    "category": 1,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/7/12/458b187b-20ea-4c58-ae00-228cf3c34be5_1a31c323-330b-47e6-9718-886805c08f13.jpg",
+    "ratings": 4.5,
+    "featured": false
+  },
+  {
+    "name": "Veg Pizza",
+    "price": 250,
+    "diet": 1,
+    "category": 1,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/iugtwbuqpi6enzij2r24",
+    "ratings": 5,
+    "featured": true
+  },
+  {
+    "name": "Veg Sandwich",
+    "price": 100,
+    "diet": 1,
+    "category": 2,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/24/b557c550-582c-4298-bb57-3cf9c18d62e2_4e51bd8e-a839-4fab-ae13-4bc794d4085d.jpg",
+    "ratings": 4.5,
+    "featured": false
+  },
+  {
+    "name": "Chicken Sandwich",
+    "price": 100,
+    "diet": 2,
+    "category": 2,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/6/24/3de5c86f-edb5-477e-92d7-ef22e63b2154_9c5e49df-0655-4eef-bf14-02352ba21fe3.JPG",
+    "ratings": 4,
+    "featured": true
+  },
+  {
+    "name": "Fruit Juice",
+    "price": 100,
+    "diet": 1,
+    "category": 3,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/s4ddcyrmerhips45jitr",
+    "ratings": 4,
+    "featured": false
+  },
+  {
+    "name": "Fruit Bowl",
+    "price": 100,
+    "diet": 1,
+    "category": 3,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/d3868c1acee58c2847a8687785c8c965",
+    "ratings": 4.5,
+    "featured": true
+  },
+  {
+    "name": "Chicken Burger",
+    "price": 100,
+    "diet": 1,
+    "category": 4,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/fralafdv3iw3pvtf4ocv",
+    "ratings": 3.5,
+    "featured": false
+  },
+  {
+    "name": "Veg Burger",
+    "price": 200,
+    "diet": 1,
+    "category": 4,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/37035f5eedcd36d4740be311a3e407f2",
+    "ratings": 5,
+    "featured": true
+  },
+  {
+    "name": "Paneer Burger",
+    "price": 200,
+    "diet": 1,
+    "category": 4,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/4/17/9e2b428f-de45-457c-89ec-8868616800e3_fbcb04f9-4af0-4b1d-b51c-6568d9f78509.jpeg",
+    "ratings": 4,
+    "featured": false
+  },
+  {
+    "name": "Egg Burger",
+    "price": 220,
+    "diet": 2,
+    "category": 4,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_208,h_208,c_fit/FOOD_CATALOG/IMAGES/CMS/2024/7/20/b41f9c09-218e-4848-ae8a-25e931412165_084098cd-f08f-447f-a3da-3234a9b06aff.jpg",
+    "ratings": 5,
+    "featured": true
+  },
+  {
+    "name": "Veg Rice",
+    "price": 150,
+    "diet": 1,
+    "category": 5,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/ne2lpcebxpvbrrncmvxi",
+    "ratings": 4.5,
+    "featured": false
+  },
+  {
+    "name": "Chinese Rice",
+    "price": 200,
+    "diet": 2,
+    "category": 5,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/hedzfqumdcq97kn2kgh3",
+    "ratings": 3.5,
+    "featured": true
+  },
+  {
+    "name": "Veg Biryani",
+    "price": 200,
+    "diet": 1,
+    "category": 5,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/txejcebtxl91xaksvkla",
+    "ratings": 3.5,
+    "featured": false
+  },
+  {
+    "name": "Chicken Biryani",
+    "price": 300,
+    "diet": 2,
+    "category": 5,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/gxghope8gkvkyyhicv0p",
+    "ratings": 4.5,
+    "featured": true
+  },
+  {
+    "name": "Vadapav",
+    "price": 50,
+    "diet": 1,
+    "category": 6,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/onwcfeuufp4ki6tykxcr",
+    "ratings": 5,
+    "featured": false
+  },
+  {
+    "name": "Samosa",
+    "price": 50,
+    "diet": 1,
+    "category": 6,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/xwfcgbriwkfttaqsrt2x",
+    "ratings": 2,
+    "featured": false
+  },
+  {
+    "name": "Kachori",
+    "price": 60,
+    "diet": 1,
+    "category": 6,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/cc3b9da18bd496d22163a766c911dee3",
+    "ratings": 4,
+    "featured": false
+  },
+  {
+    "name": "Bread Patties",
+    "price": 100,
+    "diet": 1,
+    "category": 61,
+    "description": "Spicy paneer, candied mango and charred bell pepper sandwich served on white and brown bread",
+    "img": "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_112,h_112,c_fill/ensqvz8kk2dkdhacnmdi",
+    "ratings": 3,
+    "featured": false
+  }
+]
