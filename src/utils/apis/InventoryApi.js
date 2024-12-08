@@ -18,6 +18,24 @@ class InventoryApi {
       console.log(error);
     }
   }
+
+  static async updateInventory(data) {
+    try {
+      const response = await axiosAuth.put("/inventory", data);
+      return response.data;
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  static async addInventory(data) {
+    try {
+      const response = await axiosAuth.post("/inventory", data);
+      return response.data;
+    } catch (error) {
+      console.log(error);
+    }
+  }
 }
 
 export default InventoryApi;

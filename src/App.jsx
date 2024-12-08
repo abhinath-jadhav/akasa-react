@@ -14,7 +14,7 @@ import Payment from "./Pages/Payment";
 import Order from "./Pages/Order";
 import Auth from "./Pages/Auth";
 import { EmptyCart } from "./Components";
-
+import Inventory from "./Pages/Inventory";
 const App = () => {
   return (
     <Router>
@@ -36,6 +36,7 @@ const App = () => {
 
             <Route path="/admin" element={<Admin />}>
               <Route path="foods" element={<Foods />} />
+              <Route path="inventory" element={<Inventory />} />
             </Route>
           </Route>
           {/* 404 Route */}

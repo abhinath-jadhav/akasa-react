@@ -11,6 +11,15 @@ class FoodApi {
     }
   }
 
+  static async addFood(endpoint, data) {
+    try {
+      const response = await axiosAuth.post(endpoint, data);
+      return response.data;
+    } catch (error) {
+      console.error("API call failed:", error);
+    }
+  }
+
   static async fetchFoodData(endpoint) {
     try {
       const response = await axiosNoAuth.get(endpoint);

@@ -32,9 +32,22 @@ const getUser = () => {
 
 const isAdmin = () => {
   const token = localStorage.getItem("token");
-  const decoded = jwtDecode(token);
-  console.log(decoded);
-  return true;
+  if (!token) return false;
+
+  try {
+    const decoded = jwtDecode(token);
+
+    if (!decoded.roles || !Array.isArray(decoded.roles)) {
+      return false;
+    }
+    console.log(decoded.roles.includes("ADMIN_ROLE"));
+
+    // Check if 'ADMIN' role exists in the array
+    return decoded.roles.includes("ROLE_ADMIN");
+  } catch (error) {
+    console.error("Error checking admin status:", error);
+    return false;
+  }
 };
 
 export { getUser, isAdmin };

@@ -13,11 +13,12 @@ import { CartApi } from "../utils";
 import { addAll } from "../Store/Feature/CartSlice";
 import { setAuth } from "../Store/Feature/authSlice";
 import { v4 as uuidv4 } from "uuid";
+import { isAdmin } from "../utils/PriavateRoute";
 
 const Navbar = () => {
   const navigate = useNavigate();
   const [isVisible, setIsVisible] = useState(false);
-
+  const [showAdmin, setShowAdmin] = useState(false);
   const isAuth = useSelector((state) => state.auth);
   const dispatch = useDispatch();
 
@@ -49,6 +50,7 @@ const Navbar = () => {
       }
     } else {
       dispatch(setAuth(true));
+      setShowAdmin(isAdmin());
     }
 
     document.addEventListener("mousedown", handleClickOutside);
@@ -87,7 +89,6 @@ const Navbar = () => {
           Array.isArray(parsed) &&
             parsed.length > 0 &&
             dispatch(addAll(parsed));
-          console.log(parsed);
         }
       }
     };
@@ -135,6 +136,16 @@ const Navbar = () => {
             </div>
           </div>
           <div className="w-[70%] flex items-center justify-between md:w-[40%] text-lg">
+            {showAdmin && (
+              <>
+                <Link to={"/admin"}>
+                  <div className="flex items-center justify-center font-semibold gap-2 text-secondary">
+                    <FaHome size={30} />
+                    <h3 className="hidden md:block">Admin</h3>
+                  </div>
+                </Link>
+              </>
+            )}
             <Link to={"/"}>
               <div className="flex items-center justify-center font-semibold gap-2 text-secondary">
                 <FaHome size={30} />
