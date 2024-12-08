@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Base URL for your API
-const BASE_URL = "https://apis.abhinathdev.in/api/v1"; //"https://apis.akasa.abhinathdev.in/api/v1"; //"http://localhost:8080/api/v1";
+const BASE_URL = "https://apis.akasa.abhinathdev.in/api/v1"; //"https://apis.akasa.abhinathdev.in/api/v1"; //"http://localhost:8080/api/v1";
 
 const axiosNoAuth = axios.create({
   baseURL: BASE_URL,
